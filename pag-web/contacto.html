@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/visual.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>El Rincón del Aroma</h1>
+        <nav>
+            <ul class="main-ul">
+                <li><a href="index.html">Volver</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+    <h4>Contacto</h4>
+        <table>
+            <tr>                
+                <td>Telefono:</td>
+                <td>4450-3265</td>
+            </tr>
+            <tr>                
+                <td>Direccion:</td>
+                <td>Rodríguez Peña 1766</td>
+            </tr>
+            <tr>                
+                <td>Horario:</td>
+                <td>Lunes a sabado de 9:00 a 19:00</td>
+            </tr>
+            <tr>                
+                <td>Instagram:</td>
+                <td><a href="https://www.instagram.com/therock/"><img src="./imagenes/87390.png" alt="logo de instagram" style="width: 20px; border-radius: 0%;"></a></td>
+            </tr>
+        </table>
+    </div>
+    <h4>Trabaja con nosotros</h4>
+    <form>
+        <div class="form-section">
+            <div>
+                <label for="nombre">Nombre y Apellido:</label>
+                <input id="nombre" type="text"><br>
+            </div>
+            <div>
+                <label for="edad">Edad:</label>
+                <input id="edad" type="text"><br>
+            </div>
+            <div>
+                <label for="email">Correo:</label>
+                <input id="email" type="email"><br>
+            </div>
+            <div>
+                <label for="tell">Telefono:</label>
+                <input id="tell" type="text"><br>
+            </div>
+            <div>
+                <label for="select-localidad">Seleccione su localidad</label>
+                <input list="localidades" id="select-localidad" name="select-localidad">
+                <datalist id="localidades">
+                    <option value="Merlo"></option>
+                    <option value="Hurlingham"></option>
+                    <option value="Ituzaingo"></option>
+                    <option value="Moron"></option>
+                    <option value="Haedo"></option>
+                    <option value="Castelar"></option>
+                </datalist>
+            </div>
+            <label for="sexo">Sexo:</label><br>
+            <input id="hombre" type="radio" name="sexo">
+            <label for="hombre">Hombre</label>
+            <input id="mujer" type="radio" name="sexo">
+            <label for="mujer">Mujer</label>
+            <input id="arbol" type="radio" name="sexo">
+            <label for="arbol">Arbol</label>
+        </div>
+        <div class="form-section">
+            <div>
+            <label for="experiencia">Indique en que areas esta interesado/a</label></div>
+            <div>
+                <input id="barista" type="checkbox">
+                <label for="barista">Barista</label>
+            </div>
+            <div>
+                <input id="cajero" type="checkbox">
+                <label for="cajero">Cajero</label>
+            </div>
+            <div>
+                <input id="limpieza" type="checkbox">
+                <label for="limpieza">Encargado de la Limpieza</label>
+            </div>
+            <div>
+                <input id="supervisor" type="checkbox">
+                <label for="supervisor">Supervisor</label>
+            </div>
+            <div>
+                <input id="cocinero" type="checkbox">
+                <label for="cocinero">Cocinero</label>
+            </div>
+            <div>
+                <input id="mesero" type="checkbox">
+                <label for="mesero">Mesero</label>
+            </div>
+        </div>
+        <div class="form-section">
+            <div id="text-tarea">
+                <label for="more">Hablenos de usted:</label><br>
+                <textarea name="more" id="more" rows="10" cols="40"></textarea>
+            </div><br>
+            <button style="margin-top: 16px;">Enviar</button>
+        </div>
+    </form>
+    <footer>
+        <ul class="main-ul">
+            <li>Nombre: Mauro Saavedra</li>
+            <li>DNI: 45402838</li>
+        </ul>
+    </footer>
+</body>
+</html>
